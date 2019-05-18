@@ -1,0 +1,11 @@
+<application>
+  <component name="GoSdkList">
+    <sdk-path>
+      <set>
+        <option value="" />
+        <option value="/usr/lib/go-1.10" />
+        <option value="/usr/local/src/go" />
+      </set>
+    </sdk-path>
+  </component>
+</application>
