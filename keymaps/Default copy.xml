@@ -12,10 +12,6 @@
   <action id="BaseOnThisFunction" />
   <action id="ChangesView.Diff" />
   <action id="ChangesView.GroupBy.Directory" />
-  <action id="ChooseDebugConfiguration">
-    <keyboard-shortcut first-keystroke="shift alt f9" />
-    <keyboard-shortcut first-keystroke="shift alt d" />
-  </action>
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="shift alt f10" />
     <keyboard-shortcut first-keystroke="alt r" />
@@ -28,12 +24,17 @@
   <action id="Console.TableResult.CloneRow">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
+  <action id="Console.TableResult.CompareCells" />
   <action id="DatabaseView.CopyAction">
     <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
   <action id="DecreaseColumnWidth" />
   <action id="Diagram.SelectAll" />
   <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowSettingsPopup" />
   <action id="Editor Delete">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -107,19 +108,25 @@
   </action>
   <action id="ParameterInfo" />
   <action id="RecentFiles" />
+  <action id="ReplaceInPath" />
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
   <action id="RunDashboard.CopyConfiguration">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="ScrollTreeToCenter" />
   <action id="SendEOF" />
+  <action id="TagDocumentationNavigation" />
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TodoViewGroupByShowModules" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchy.BaseOnThisType" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="Uml.ShowDiff" />
   <action id="Vcs.ShowMessageHistory" />
   <action id="hg4idea.QFold" />
   <action id="openAssertEqualsDiff" />
